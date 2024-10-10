@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://github.com/vxnuprasad"><img title="Author" src="https://img.shields.io/badge/Author-Vishnu-yellow.svg?style=for-the-badge&logo=github"></a>
-<a href="https://prodigydfknfin/"><img title="Website" src="https://img.shields.io/badge/Website-Portflio--Site-green.svg?style=for-the-badge&logo=sites"></a>
+<a href="https://vxnuprasad.github.io/"><img title="Website" src="https://img.shields.io/badge/Website-Portflio--Site-green.svg?style=for-the-badge&logo=sites"></a>
 </p>
 
 Portfolio Pro is a sleek and responsive portfolio website developed using HTML, CSS, and JavaScript. This site is designed to showcase personal projects, professional experience, and technical skills in a visually appealing manner.
