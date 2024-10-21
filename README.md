@@ -29,7 +29,7 @@ Portfolio Pro is a sleek and responsive portfolio website developed using HTML, 
 
 ## Contributions
 
-If you find this tool useful, consider following [techno-rabit](https://github.com/techno-rabit) on GitHub!
+If you find this tool useful, consider following [vxnuprasad](https://github.com/vxnuprasad) on GitHub!
 
 ## Find Me on:
 
