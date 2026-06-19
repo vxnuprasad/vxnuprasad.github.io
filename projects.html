@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <title>Projects | Vxnu Prasad</title>
+    <!-- SEO META -->
+    <meta name="description" content="Explore security tools, infrastructure projects, and client work by Vishnu Prasad — including ESP32 research devices, SOC lab, and self-hosted cloud NAS." />
+    <meta name="author" content="Vishnu Prasad" />
+    <link rel="canonical" href="https://vxnuprasad.github.io/projects.html" />
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Projects | Vxnu Prasad — Security Tools & Research" />
+    <meta property="og:description" content="Explore security tools, infrastructure projects, and client work by Vishnu Prasad — including ESP32 research devices, SOC lab, and self-hosted cloud NAS." />
+    <meta property="og:image" content="https://vxnuprasad.github.io/assets/seo/og-banner.webp" />
+    <meta property="og:url" content="https://vxnuprasad.github.io/projects.html" />
+    <meta property="og:type" content="website" />
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Projects | Vxnu Prasad — Security Tools & Research" />
+    <meta name="twitter:description" content="Explore security tools, infrastructure projects, and client work by Vishnu Prasad — including ESP32 research devices, SOC lab, and self-hosted cloud NAS." />
+    <meta name="twitter:image" content="https://vxnuprasad.github.io/assets/seo/og-banner.webp" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- DEVICONS -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ========================================= -->
+    <!-- NAVBAR -->
+    <!-- ========================================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Vxnu Prasad
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="https://vxnuprasad.medium.com/" target="_blank" rel="noopener noreferrer">Blog</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+
+        <a href="assets/resume/resume.pdf" download class="resume-btn">
+            <i class="fa-solid fa-download"></i>
+            Download Resume
+        </a>
+
+    </nav>
+
+    <!-- ========================================= -->
+    <!-- PAGE HERO -->
+    <!-- ========================================= -->
+
+    <section class="page-hero">
+
+        <div class="hero-badge">
+            PROJECTS
+        </div>
+
+        <h1>
+            Building Security Tools,<br/>
+            Infrastructure, <span>and Real-World Solutions</span>
+        </h1>
+
+        <p>
+            A look at what I've built — from self-hosted infrastructure and
+            blue-team labs to offensive security research and client work.
+        </p>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- FEATURED PROJECT: PRIVATE CLOUD NAS -->
+    <!-- ========================================= -->
+
+    <section class="page-section">
+
+        <div class="section-header">
+            <div class="section-title">FEATURED PROJECT</div>
+        </div>
+
+        <a href="https://vxnuprasad.medium.com/how-i-turned-an-old-laptop-into-my-own-private-cloud-nas-a-complete-beginner-friendly-guide-9cb0aaaca640"
+           target="_blank" rel="noopener noreferrer" class="project-card featured show">
+
+            <div class="project-image green">
+                <img loading="lazy" src="assets/projects/private-cloud-nas.png" alt="Private Cloud NAS" class="project-img" onerror="this.style.display='none'" />
+            </div>
+
+            <div class="project-content">
+
+                <h3>Private Cloud NAS</h3>
+
+                <div class="project-tags">
+                    <span>Linux</span>
+                    <span>Self-Hosted</span>
+                    <span>Infrastructure</span>
+                </div>
+
+                <p>
+                    Turned an old laptop into a fully self-hosted private cloud NAS —
+                    a complete, beginner-friendly guide covering hardware repurposing,
+                    storage setup, and remote access.
+                </p>
+
+                <div class="project-objectives">
+                    <span>Read the full writeup on Medium</span>
+                </div>
+
+            </div>
+
+        </a>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SOC LAB -->
+    <!-- ========================================= -->
+
+    <section class="page-section" id="soc-lab">
+
+        <div class="section-header">
+            <div class="section-title">SOC LAB</div>
+        </div>
+
+        <div class="dashboard-card show">
+
+            <p>
+                A home-built Security Operations Center for hands-on blue team practice —
+                combining a vulnerable web application target with real monitoring and
+                detection tooling.
+            </p>
+
+            <div class="about-info-grid">
+
+                <div class="info-box">
+                    <span>Server</span>
+                    <strong>Ubuntu Server</strong>
+                </div>
+
+                <div class="info-box">
+                    <span>Target</span>
+                    <strong>Vulnerable Web Application</strong>
+                </div>
+
+                <div class="info-box">
+                    <span>WAF</span>
+                    <strong>SafeLine WAF</strong>
+                </div>
+
+                <div class="info-box">
+                    <span>SIEM</span>
+                    <strong>Splunk</strong>
+                </div>
+
+                <div class="info-box">
+                    <span>Detection</span>
+                    <strong>Wazuh</strong>
+                </div>
+
+            </div>
+
+            <div class="project-objectives" style="margin-top:24px;">
+                <span>Learn Web Attacks</span>
+                <span>Blue Team Monitoring</span>
+                <span>Log Analysis</span>
+                <span>Threat Detection</span>
+                <span>Security Operations</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SECURITY RESEARCH PROJECTS -->
+    <!-- ========================================= -->
+
+    <section class="page-section">
+
+        <div class="section-header">
+            <div class="section-title">SECURITY RESEARCH PROJECTS</div>
+        </div>
+
+        <div class="projects-grid">
+
+            <a href="https://github.com/vxnuprasad/EVIL-RAB-v2.0---ESP32-Evil-Twin-WiFi-Attack-Device"
+               target="_blank" rel="noopener noreferrer" class="project-card show">
+
+                <div class="project-image dark">
+                    <img loading="lazy" src="assets/projects/evil-rab.png" alt="EVIL-RAB v2.0" class="project-img" onerror="this.style.display='none'" />
+                </div>
+
+                <div class="project-content">
+
+                    <h3>EVIL-RAB v2.0</h3>
+
+                    <div class="project-tags">
+                        <span>ESP32</span>
+                        <span>Evil Twin</span>
+                        <span>WiFi</span>
+                    </div>
+
+                    <p>
+                        ESP32-based Evil Twin WiFi attack device for wireless
+                        security research and testing.
+                    </p>
+
+                </div>
+
+            </a>
+
+            <a href="https://github.com/vxnuprasad/Bluetooth-Jammer-Using-ESP32-DevKit-NodeMCU"
+               target="_blank" rel="noopener noreferrer" class="project-card show">
+
+                <div class="project-image dark">
+                    <img loading="lazy" src="assets/projects/bluetooth-jammer.png" alt="Bluetooth Jammer Using ESP32" class="project-img" onerror="this.style.display='none'" />
+                </div>
+
+                <div class="project-content">
+
+                    <h3>Bluetooth Jammer Using ESP32</h3>
+
+                    <div class="project-tags">
+                        <span>ESP32</span>
+                        <span>Bluetooth</span>
+                        <span>RF Research</span>
+                    </div>
+
+                    <p>
+                        ESP32 DevKit / NodeMCU based Bluetooth jamming research
+                        project for wireless protocol experimentation.
+                    </p>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- HOME NETWORK INFRASTRUCTURE -->
+    <!-- ========================================= -->
+
+    <section class="page-section">
+
+        <div class="section-header">
+            <div class="section-title">HOME NETWORK INFRASTRUCTURE</div>
+        </div>
+
+        <div class="dashboard-card show">
+
+            <h3 style="margin-bottom:14px;">Home Network Design &amp; Optimization</h3>
+
+            <p>
+                End-to-end design and optimization of a home network covering
+                segmentation, wireless performance, and security hardening.
+            </p>
+
+            <div class="project-objectives" style="margin-top:18px;">
+                <span>Network Design</span>
+                <span>Wireless Optimization</span>
+                <span>IoT Segmentation</span>
+                <span>Security Configuration</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- GREYNOD LABS FEATURE -->
+    <!-- ========================================= -->
+
+    <section class="greynod-section">
+
+        <a href="https://greynodlabs.com/" target="_blank" rel="noopener noreferrer" class="greynod-card" style="text-decoration:none;color:inherit;display:block;">
+
+            <div class="eyebrow">COMPANY</div>
+
+            <h2>GREYNOD LABS</h2>
+
+            <p>
+                My cybersecurity company — helping organizations identify, assess, and
+                remediate vulnerabilities across web applications, APIs, and infrastructure.
+                Visit greynodlabs.com →
+            </p>
+
+        </a>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- CLIENT PROJECTS -->
+    <!-- ========================================= -->
+
+    <section class="page-section">
+
+        <div class="section-header">
+            <div class="section-title">CLIENT PROJECTS</div>
+        </div>
+
+        <div class="client-grid">
+
+            <a href="https://essalgroupuae.com/" target="_blank" rel="noopener noreferrer" class="client-card show">
+                <div><h3>Essal Group UAE</h3><span>essalgroupuae.com</span></div>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <a href="https://essaluae.com/" target="_blank" rel="noopener noreferrer" class="client-card show">
+                <div><h3>Essal UAE</h3><span>essaluae.com</span></div>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <a href="https://indiandropshipings.com/" target="_blank" rel="noopener noreferrer" class="client-card show">
+                <div><h3>Indian Dropshipings</h3><span>indiandropshipings.com</span></div>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <a href="https://www.sugoimerch.in/" target="_blank" rel="noopener noreferrer" class="client-card show">
+                <div><h3>Sugoi Merch</h3><span>sugoimerch.in</span></div>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <a href="https://greynodlabs.com/" target="_blank" rel="noopener noreferrer" class="client-card show">
+                <div><h3>GreyNod Labs</h3><span>greynodlabs.com</span></div>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <a href="https://balusserytownlionsclub.github.io/" target="_blank" rel="noopener noreferrer" class="client-card show">
+                <div><h3>Balussery Town Lions Club</h3><span>balusserytownlionsclub.github.io</span></div>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- WHAT'S NEXT -->
+    <!-- ========================================= -->
+
+    <section class="page-section">
+
+        <div class="section-header">
+            <div class="section-title">WHAT'S NEXT</div>
+        </div>
+
+        <div class="next-grid">
+
+            <div class="next-card">
+                <i class="fa-solid fa-ban"></i>
+                <p>Network-Wide Ad Blocker</p>
+            </div>
+
+            <div class="next-card">
+                <i class="fa-solid fa-server"></i>
+                <p>Active Directory Lab</p>
+            </div>
+
+            <div class="next-card">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <p>Cybersecurity Education Platform</p>
+            </div>
+
+            <div class="next-card">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <p>Security Tool Development</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================= -->
+    <!-- FOOTER -->
+    <!-- ========================================= -->
+
+    <footer class="footer">
+
+        <div class="footer-left">
+
+            <h3>Vxnu Prasad</h3>
+
+            <p>
+                Cybersecurity Analyst • Security Researcher
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="index.html#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/vxnuprasad" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/vxnuprasad" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://instagram.com/__.v.shnu/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="mailto:vxnuprasad@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>

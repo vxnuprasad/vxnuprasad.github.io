@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vxnuprasad.github.io/sitemap.xml
